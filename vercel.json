@@ -1,0 +1,11 @@
+{
+  "builds": [
+    {
+      "src": "index.php",
+      "use": "@vercel/php"
+    }
+  ],
+  "env": {
+    "VERCEL_NODE_RUNTIME": "nodejs18.x"
+  }
+}
